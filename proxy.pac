@@ -1,0 +1,4 @@
+
+function FindProxyForURL(url, host) {
+    return "SOCKS 192.168.21.229:10808;HTTP 192.168.21.229:10808;HTTPS 192.168.21.229:10808;DIRECT";
+}
